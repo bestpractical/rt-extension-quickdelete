@@ -1,0 +1,14 @@
+<%ARGS>
+$COLUMN_MAP => undef
+</%ARGS>
+<%init>
+$COLUMN_MAP->{'QuickDelete'} = {
+    title => ' ',
+    value => sub {
+        my $ticket = shift;
+        return $m->comp( '/RT-Extension-QuickDelete/Toggle',
+            id => $ticket->id );
+        }
+};
+</%init>
+
