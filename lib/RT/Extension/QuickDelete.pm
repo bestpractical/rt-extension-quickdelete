@@ -9,7 +9,7 @@ use Carp;
 
 =head1 NAME
 
-RT::Extension::QuickDelete - Adds q "quick delete" button" to RT's standard ticket search interface
+RT::Extension::QuickDelete - Adds a "quick delete" button to RT's standard ticket search interface
 
 
 =head1 SYNOPSIS
