@@ -39,10 +39,8 @@ RT::Extension::QuickDelete - Adds a "quick delete" button to RT's standard ticke
    '<small>__LastUpdatedRelative__</small>',
    '<small>__TimeLeft__</small>'}); 
 
-
-
-
-
+On RT 4, this extension will not provide a Quick Delete link from the Ticket Display pages.  You can add one
+using the Lifecycles functionality.
 
 =head1 AUTHOR
 
@@ -51,7 +49,7 @@ Jesse Vincent  C<< <jesse@bestpractical.com> >>
 
 =head1 LICENCE AND COPYRIGHT
 
-Copyright (c) 2007, Best Practical Solutions, LLC.  All rights reserved.
+Copyright (c) 2007-2011, Best Practical Solutions, LLC.  All rights reserved.
 
 This module is free software; you can redistribute it and/or
 modify it under the same terms as Perl itself. See L<perlartistic>.

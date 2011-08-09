@@ -18,6 +18,7 @@
 
 <%init>
 if ($Ticket) {
+    return unless $Ticket->CurrentUserHasRight('DeleteTicket');
     $actions->{'_ZZ-QuickDelete'} = {
         html => $m->scomp(
             '/RT-Extension-QuickDelete/Toggle',
