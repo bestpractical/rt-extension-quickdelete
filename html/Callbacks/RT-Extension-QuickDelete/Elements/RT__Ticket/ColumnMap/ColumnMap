@@ -7,7 +7,7 @@ $COLUMN_MAP->{'QuickDelete'} = {
     value => sub {
         my $ticket = shift;
         return unless $ticket->CurrentUserHasRight('DeleteTicket');
-        return $m->comp( '/RT-Extension-QuickDelete/Toggle',
+        return \$m->scomp( '/RT-Extension-QuickDelete/Toggle',
             id => $ticket->id );
         }
 };
