@@ -18,6 +18,10 @@ RT::Extension::QuickDelete - Adds a "quick delete" button to RT's standard ticke
  make install
  make initdb
 
+ Add RT::Extension::QuickDelete to your existin @Plugins line, or create a new @Plugins line:
+
+ Set(@Plugins, qw(RT::Extension::QuickDelete));
+
  # If you're using RT 3.6.0 or RT 3.6.1, copy etc/3.6.1/ShowSearch to /opt/rt3/share/html/Elements/ShowSearch
  # (This changed file is already included in RT 3.6.2)
  
