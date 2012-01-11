@@ -41,7 +41,8 @@ RT::Extension::QuickDelete - Adds a "quick delete" button to RT's standard ticke
    '<small>__CreatedRelative__</small>',
    '<small>__ToldRelative__</small>',
    '<small>__LastUpdatedRelative__</small>',
-   '<small>__TimeLeft__</small>'}); 
+   '<small>__TimeLeft__</small>',
+   '__BLANK__/TITLE:NBSP'});
 
 On RT 4, this extension will not provide a Quick Delete link from the Ticket Display pages.  You can add one
 using the Lifecycles functionality.
