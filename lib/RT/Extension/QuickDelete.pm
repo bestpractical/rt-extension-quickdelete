@@ -16,7 +16,6 @@ RT::Extension::QuickDelete - Adds a "quick delete" button to RT's standard ticke
 
  perl Makefile.PL
  make install
- make initdb
 
  Add RT::Extension::QuickDelete to your existin @Plugins line, or create a new @Plugins line:
 
