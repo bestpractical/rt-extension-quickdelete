@@ -1,6 +1,6 @@
 package RT::Extension::QuickDelete;
 
-our $VERSION = '0.05';
+our $VERSION = '0.06';
 
 use warnings;
 use strict;
